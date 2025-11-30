@@ -38,3 +38,20 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+RISING_MAINTAINER="cmdelite"
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RisingChipset="Exynos 9611" \
+    RisingMaintainer="cmdelite"
+
+RISING_MAINTAINER := cmdelite
+
+TARGET_ENABLE_BLUR := false
+
+PRODUCT_NO_CAMERA := false
+
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := false
+
+WITH_GMS := true
+TARGET_USES_PICO_GAPPS := true
