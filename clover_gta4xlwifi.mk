@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020-2021 The LineageOS Project
+# Copyright (C) 2025 The Clover Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -26,12 +26,12 @@ $(call inherit-product, device/samsung/gta4xlwifi/device.mk)
 TARGET_SCREEN_HEIGHT := 2000
 TARGET_SCREEN_WIDTH := 1200
 
-## Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+## Inherit some common Clover stuff
+$(call inherit-product, vendor/clover/config/common_full_tablet_wifionly.mk)
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_DEVICE := gta4xlwifi
-PRODUCT_NAME := lineage_gta4xlwifi
+PRODUCT_NAME := clover_gta4xlwifi
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-P610
 PRODUCT_MANUFACTURER := samsung
