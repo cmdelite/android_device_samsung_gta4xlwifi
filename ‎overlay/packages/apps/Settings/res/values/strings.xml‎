@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nexus Maintainer -->
+    <string name="nexus_official_build">false</string>
+    <string name="nexus_maintainer">Elite</string>
+</resources>
