@@ -38,3 +38,25 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_SHIPPING_API_LEVEL := 29
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+## Axion Configuration
+TARGET_ENABLE_BLUR := true
+
+AXION_CAMERA_REAR_INFO := 8
+AXION_CAMERA_FRONT_INFO := 5
+
+AXION_MAINTAINER := cmdelite
+AXION_PROCESSOR := Exynos_9611
+
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := schedutil
+
+GPU_FREQS_PATH := /sys/devices/platform/11500000.mali/dvfs_table
+GPU_MIN_FREQ_PATH := /sys/devices/platform/11500000.mali/dvfs_min_lock
+
+HBM_SUPPORTED := false
+TORCH_STR_SUPPORTED := false
+
+TARGET_NEEDS_DOZE_FIX := false
+TARGET_USES_USLMK := false
+TARGET_IS_LOW_RAM ?= false

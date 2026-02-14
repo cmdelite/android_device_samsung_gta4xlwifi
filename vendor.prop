@@ -1,2 +1,6 @@
 ## RIL
 ro.radio.noril=true
+
+## Axion Configuration
+persist.sys.perf.scroll_opt=true
+persist.sys.perf.scroll_opt.heavy_app=2
