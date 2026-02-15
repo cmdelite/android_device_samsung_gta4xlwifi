@@ -60,3 +60,6 @@ TORCH_STR_SUPPORTED := false
 TARGET_NEEDS_DOZE_FIX := false
 TARGET_USES_USLMK := false
 TARGET_IS_LOW_RAM ?= false
+
+-include vendor/lineage-priv/keys/keys.mk
+include vendor/lineage-priv/keys/keys.mk
